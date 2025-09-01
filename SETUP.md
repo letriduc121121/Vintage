@@ -3,6 +3,7 @@
 ## 📋 Quick Start
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 - MongoDB (local or Atlas)
@@ -12,8 +13,8 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/vintage-shop.git
-cd vintage-shop
+git clone https://github.com/yourusername/Vintage.git
+cd Vintage
 
 # Install backend dependencies
 cd Vintage/backend
@@ -27,6 +28,7 @@ npm install
 ### 2. Environment Setup
 
 #### Backend (.env)
+
 Create `Vintage/backend/.env`:
 
 ```env
@@ -39,6 +41,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
 #### Frontend (.env)
+
 Create `Vintage/frontend/.env`:
 
 ```env
@@ -59,12 +62,14 @@ npm run seed
 ### 4. Start Development Servers
 
 #### Terminal 1 - Backend
+
 ```bash
 cd Vintage/backend
 npm run dev
 ```
 
 #### Terminal 2 - Frontend
+
 ```bash
 cd Vintage/frontend
 npm run dev
@@ -78,17 +83,20 @@ npm run dev
 ## 🔧 Configuration Details
 
 ### MongoDB Setup
+
 1. Create MongoDB Atlas account
 2. Create new cluster
 3. Get connection string
 4. Replace `your_username`, `your_password`, `your_cluster`, `your_database` in MONGO_URI
 
 ### Cloudinary Setup
+
 1. Create Cloudinary account
 2. Get cloud name, API key, and API secret
 3. Add to backend .env file
 
 ### PayPal Setup
+
 1. Create PayPal Developer account
 2. Create app to get client ID
 3. Add to frontend .env file
@@ -98,17 +106,20 @@ npm run dev
 ### Common Issues
 
 **Port already in use**
+
 ```bash
 # Kill process on port 9000
 npx kill-port 9000
 ```
 
 **MongoDB connection failed**
+
 - Check MONGO_URI format
 - Ensure network access is enabled
 - Verify username/password
 
 **Frontend can't connect to backend**
+
 - Ensure backend is running on port 9000
 - Check VITE_BACKEND_URL in frontend .env
 - Verify CORS settings in backend
