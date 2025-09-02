@@ -323,17 +323,6 @@ Vintage/
 2. Set environment variables
 3. Deploy automatically
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **MIT License Benefits:**
 
@@ -344,13 +333,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - ✅ Compatible with most other licenses
 
 **Copyright © 2024 Vintage E-commerce Platform**
-
-## 👨‍💻 Author
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 ## 🙏 Acknowledgments
 
@@ -363,7 +345,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you have any questions or need help, please open an issue on GitHub or contact me at your.email@example.com.
+If you have any questions or need help, please open an issue on GitHub or contact me letriduc121121@gmail.com
 
 ---
 
